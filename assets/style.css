@@ -81,12 +81,12 @@ section {
 }
 
 #start {
-    visibility: hidden;
+    visibility: visible;
 }
 
 #qb {
     position:absolute;
-    visibility: visible;
+    visibility: hidden;
     color:white;
     font-family: 'Play';
     font-size: 24px;

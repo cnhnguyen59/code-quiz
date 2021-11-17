@@ -1,7 +1,9 @@
 var startBtn = document.querySelector('.start-button')
+var timerEl = document.querySelector('.timer-count')
 
 var finish = false
-var timer = 60
+var timer
+var timerCount = 60
 var correct = 0
 var wrong = 0
 
@@ -14,16 +16,19 @@ function startQuiz() {
     document.getElementById('qb').style.visibility = 'visible';
     document.getElementById('timer').style.visibility = 'visible';
 
-    /* startClock()
-    getQuestion() */
+    startTimer()
 }
 
-/* function startClock(){
-
+ function startTimer(){
+    timer = setInterval(function(){
+        timerCount--;
+        timerEl.textContent =timerCount
+        console.log(timerCOunt)
+    }, 1000)
 }
 
-function getQ() {
+/* function getQ() {
 
-} */
+}  */
 
 startBtn.addEventListener('click', startQuiz)
