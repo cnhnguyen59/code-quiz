@@ -1,0 +1,124 @@
+*{
+    box-sizing: border-box;
+    padding: 0;
+    margin: 0;
+}
+
+body {
+    background-image: url('./images/background.jpeg');
+    background-color: #4029A7;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    background-size: cover;
+}
+
+main{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+header {
+    color:white;
+    float: right;
+    font-family: 'Play';
+}
+
+header p{
+    padding: 5px;
+    visibility: hidden;
+}
+
+section {
+    background-color:#4029A7;
+    width: 500px;
+    height: 350px;
+    margin: 100px;   
+    border-radius: 10px;
+    box-shadow: 0px 0px 5px 2px black;
+    justify-content: center;
+    align-items: center;
+}
+
+.start-box{
+    display: flex;
+    flex-direction: column;
+    justify-items: center;
+    align-items: center;
+}
+
+section h1 {
+    font-size: 50px;
+    text-align: center;
+    color: white;
+    font-family: "Play";
+    padding-top: 50px;
+    padding-bottom: 20px;
+}
+
+.start-button {
+    width: 200px;
+    font-size: 24px;
+    font-family: 'Play';
+    color: black;
+    background-color: #F16822;
+    margin: 5px
+}
+
+.scores{
+    width: 200px;
+    font-size: 24px;
+    font-family:'Play';
+    color: black;
+    background-color: gold;
+    
+}
+
+section {
+    position: relative;
+}
+
+#start {
+    visibility: hidden;
+}
+
+#qb {
+    position:absolute;
+    visibility: visible;
+    color:white;
+    font-family: 'Play';
+    font-size: 24px;
+    padding-left: 10px;
+    padding-right: 10px;
+    display: flex;
+    flex-direction: column;
+    /* align-items: center; */
+    top: 0%;
+    opacity: 1;
+}
+
+.question{
+    padding-bottom: 5px;
+    width: 480px;
+    height: 175px;
+
+    /* border: 5px solid white; */ 
+}
+
+.choice{
+    float: left;
+    font-family: 'Play';
+    font-size: 16px;
+    background-color: #58C4EA;
+    width: 450px;
+    height:30px;
+    border-radius: 10px;
+    margin-bottom: 2px;
+}
+
+
+@media screen and (max-width: 812px) {
+
+}
