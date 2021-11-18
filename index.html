@@ -3,14 +3,15 @@
     <Head>
         <title> Javascript Fundamentals Quiz</title>
         <meta name="viewport" content="width=device-width, initial-scale=1" />
-        <link rel="stylesheet" type ="text/css" href="./assets/style.css" />
+        <link rel="stylesheet" type ="text/css" href="./assets/css/style.css" />
         <link rel="preconnect" href="https://fonts.googleapis.com">
         <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
         <link href="https://fonts.googleapis.com/css2?family=Play&display=swap" rel="stylesheet">
     </Head>
     <body>
         <header>
-            <div class='timer'>
+            <div id='header'>
+                <p id="score">Score: <span class="user-score">0</span></p>
                 <p id="timer">Time: <span class='timer-count'>60</span>s</p>
                 
             </div>
@@ -19,10 +20,10 @@
             <section>
                 <div class="start-box" id="start">
                     <h1>Javascript Fundamentals Quiz</h1>
-                    <button class="start-button" onclick="document.getElementById('qb').style.visibility = visible">Start</button>
+                    <button class="start-button"> Start</button>
                     <button class="scores">High Scores</button>
                 </div>
-                <div class="questions-box" id = 'qb'>
+                <div class="questions-box" id ='qb'>
                     <h2 class="question"></h2>
                     <button class="choice"></button>
                     <button class="choice"></button>
@@ -34,6 +35,7 @@
             </section> 
 
         </main>
-        <script src='assets/script.js'></script>
+        <script src='assets/javascript/questions.js'></script>
+        <script src='assets/javascript/script.js'></script>
     </body>
 </html>

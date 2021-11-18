@@ -5,7 +5,7 @@
 }
 
 body {
-    background-image: url('./images/background.jpeg');
+    background-image: url('../images/retro_comp.jpeg');
     background-color: #4029A7;
     -webkit-background-size: cover;
     -moz-background-size: cover;
@@ -22,13 +22,18 @@ main{
 
 header {
     color:white;
-    float: right;
     font-family: 'Play';
+    visibility: hidden;
 }
 
 header p{
     padding: 5px;
-    visibility: hidden;
+}
+#score{
+    float: left;
+}
+#timer {
+    float:right;
 }
 
 section {
