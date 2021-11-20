@@ -115,10 +115,10 @@ section {
 .choice{
     float: left;
     font-family: 'Play';
-    font-size: 16px;
+    font-size: 20px;
     background-color: #58C4EA;
     width: 450px;
-    height:30px;
+    height:40px;
     border-radius: 10px;
     margin-bottom: 2px;
 }
