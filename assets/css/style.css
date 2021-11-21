@@ -123,7 +123,94 @@ section {
     margin-bottom: 2px;
 }
 
+/* .scores-box{
+    position: relative;
+    justify-content: center;
+} */
+.scores-input{
+    position: absolute;
+    font-family: 'Play';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    visibility: hidden;
+    left: 20%;
+    top:0%
+}
+
+.form{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    /* visibility: hidden; */
+} 
+.leaderboard{
+    visibility: visible;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+ol {
+    color: white;
+    font-family: 'Play';
+    font-size: 20px;
+    padding-bottom: 10px;
+}
+
+.try-again{
+    width: 200px;
+    font-size: 24px;
+    font-family: 'Play';
+    color: black;
+    background-color: #F16822;
+    margin: 5px
+}
+
+.reset {
+    width: 200px;
+    font-size: 24px;
+    font-family:'Play';
+    color: black;
+    background-color: gold;
+    margin: 10px;
+}
+/* .your-score{
+    position: absolute;
+    visibility: hidden;
+    top: 0%;
+    left: 18%;
+} */
+
+.scoresTable{
+    font-family: 'Play';
+    color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+input{
+    font-size: 20px;
+    margin-top: 10px;
+}
+
+.save {
+    width: 200px;
+    font-size: 24px;
+    font-family:'Play';
+    color: black;
+    background-color: gold;
+    margin: 10px;
+}
 
 @media screen and (max-width: 812px) {
-
+    section {
+        flex-shrink: 1;
+    }
 }

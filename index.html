@@ -21,7 +21,7 @@
                 <div class="start-box" id="start">
                     <h1>Javascript Fundamentals Quiz</h1>
                     <button class="start-button"> Start</button>
-                    <button class="scores">High Scores</button>
+                    <button class="scores">Recent Scores</button>
                 </div>
                 <div class="questions-box" id ='qb'>
                     <h2 class="question"></h2>
@@ -32,10 +32,19 @@
                         <button class="choice"></button>
                     </div>
                 </div>
+                <div class='scores-input' id ='sb'>
+                    <h1 class = 'your-score'>Your score: <span class='final-score'>100</span></h1>
+                    <form class='form'>
+                        <h2>Enter your initials:</h2>
+                        <input type ='text' class= 'input-box'placeholder='ex: "AA"'>
+                        <button type ='reset' class='save'>Enter</button>
+                    </form>
+                </div>
             </section> 
 
         </main>
         <script src='assets/javascript/questions.js'></script>
         <script src='assets/javascript/script.js'></script>
+        <script src="./assets/javascript/scores.js"></script>
     </body>
 </html>
